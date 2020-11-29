@@ -5,22 +5,20 @@
 
 An app that allows the user to search for house plants in the New York City area, view details on various common household plants and add them to your favorites.
 
+## MVP
+
+<br>
+
 ### Features
+- Users will be able to create an account 
 - A library list of 50+ common houshold plants
 - A search bar for quickly finding the houseplant you need
 - A way to filter and browse plants by genus/types
 - A way to filter plants based on availability at local stores
 
 ### Challenges
-
-
-<br>
-
-## MVP
-
-> The Minimum Viable Product should be a well-planned, easily-communicated product, ensuring that the client's deliverable will be achievable and meet specifications within the time frame estimated.
-
-_The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+- A way to find a good collection of different houseplants
+- 
 
 <br>
 
