@@ -3,7 +3,15 @@
 
 ## Overview
 
-An app that allows you to search for your favorite house plants
+An app that allows the user to search for house plants in the New York City area, view details on various common household plants and add them to your favorites.
+
+### Features
+- A library list of 50+ common houshold plants
+- A search bar for quickly finding the houseplant you need
+- A way to filter and browse plants by genus/types
+- A way to filter plants based on availability at local stores
+
+### Challenges
 
 
 <br>
@@ -16,16 +24,6 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 <br>
 
-### Goals
-
-- _Lorem ipsum, dolor sit amet,_
-- _consectetur adipiscing elit._
-- _Phasellus dapibus fermentum risus vitae bibendum._
-- _Integer vel ipsum mollis odio sollicitudin ornare eu vel ex._
-- _etc._
-
-<br>
-
 ### Libraries and Dependencies
 
 > Use this section to list all supporting libraries and dependencies, and their role in the project. Below is an example - this needs to be replaced!
@@ -34,9 +32,11 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 | :--------------: | :----------------------------------------- |
 |      React       | _Lorem ipsum dolor sit amet, consectetur._ |
 |   React Router   | _Lorem ipsum dolor sit amet, consectetur._ |
-| React SemanticUI | _Lorem ipsum dolor sit amet, consectetur._ |
-|     Express      | _Lorem ipsum dolor sit amet, consectetur._ |
-|  Express Router  | _Lorem ipsum dolor sit amet, consectetur._ |
+|  React Bootstrap | _Lorem ipsum dolor sit amet, consectetur._ |
+|     PostgreSQL   | _Lorem ipsum dolor sit amet, consectetur._ |
+|       Ruby       | _Lorem ipsum dolor sit amet, consectetur._ |
+|       Rails      | _Lorem ipsum dolor sit amet, consectetur._ |
+
 
 <br>
 
@@ -81,7 +81,7 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 ``` structure
 
 src
-|__ assets/
+|__ asset s/
       |__ fonts
       |__ graphics
       |__ images
