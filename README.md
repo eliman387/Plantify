@@ -43,7 +43,7 @@ An app that allows the user to search for house plants in the New York City area
 
 #### Wireframes
 
-> Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
+Homepage (Desktop)
 
 ![Homepage Desktop](</assets/images/HOMEPAGE_WIREFRAME_(Desktop).png>)
 
@@ -115,7 +115,7 @@ src
 
 #### ERD Model
 
-https://lucid.app/lucidchart/invitations/accept/2aa23908-55a7-4a5d-97f4-959f34f0d62e
+![PlantifyERD](https://lucid.app/publicSegments/view/3566ed16-b092-462f-8449-6e01e804709f/image.png)
 
 <br>
 
