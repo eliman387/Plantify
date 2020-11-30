@@ -1,6 +1,5 @@
 # Plantify
 
-
 ## Overview
 
 An app that allows the user to search for house plants in the New York City area, view details on various common household plants and add them to your favorites.
@@ -10,15 +9,18 @@ An app that allows the user to search for house plants in the New York City area
 <br>
 
 ### Features
-- Users will be able to create an account 
+
+- Users will be able to create an account
 - A library list of 50+ common houshold plants
 - A search bar for quickly finding the houseplant you need
 - A way to filter and browse plants by genus/types
 - A way to filter plants based on availability at local stores
 
 ### Challenges
+
 - A way to find a good collection of different houseplants
-- 
+- Authentican for users
+- Care Tips section
 
 <br>
 
@@ -26,15 +28,14 @@ An app that allows the user to search for house plants in the New York City area
 
 > Use this section to list all supporting libraries and dependencies, and their role in the project. Below is an example - this needs to be replaced!
 
-|     Library      | Description                                |
-| :--------------: | :----------------------------------------- |
-|      React       | _Lorem ipsum dolor sit amet, consectetur._ |
-|   React Router   | _Lorem ipsum dolor sit amet, consectetur._ |
-|  React Bootstrap | _Lorem ipsum dolor sit amet, consectetur._ |
-|     PostgreSQL   | _Lorem ipsum dolor sit amet, consectetur._ |
-|       Ruby       | _Lorem ipsum dolor sit amet, consectetur._ |
-|       Rails      | _Lorem ipsum dolor sit amet, consectetur._ |
-
+|     Library     | Description                                                 |
+| :-------------: | :---------------------------------------------------------- |
+|      React      | _Framework that the front-end client side is built on_      |
+|  React Router   | _Dependency that allows for linking and routing components_ |
+| React Bootstrap | _Library that has built-out UI React Components_            |
+|   PostgreSQL    | _Database that the back-end of the app is built on_         |
+|      Ruby       | _Back-end language that will be used_                       |
+|      Rails      | _Back-end MVC framework that Ruby will be built on_         |
 
 <br>
 
@@ -44,7 +45,7 @@ An app that allows the user to search for house plants in the New York City area
 
 > Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
 
-![Dummy Link](url)
+![Homepage Desktop](</assets/images/HOMEPAGE_WIREFRAME_(Desktop).png>)
 
 - Desktop Landing
 
@@ -70,13 +71,13 @@ An app that allows the user to search for house plants in the New York City area
 
 #### Component Tree
 
-> Use this section to display the structure of how your React components are being rendered. This should show the parent to child relation between you components. In other words, show which components are rendering the other components. 
+> Use this section to display the structure of how your React components are being rendered. This should show the parent to child relation between you components. In other words, show which components are rendering the other components.
 
 #### Component Hierarchy
 
-> Use this section to define your React components and the data architecture of your app. This should be a reflection of how you expect your directory/file tree to look like. 
+> Use this section to define your React components and the data architecture of your app. This should be a reflection of how you expect your directory/file tree to look like.
 
-``` structure
+```structure
 
 src
 |__ asset s/
@@ -114,17 +115,17 @@ src
 
 #### ERD Model
 
-> Use this section to display an image of a computer generated ERD model. You can use draw.io, Lucidchart or another ERD tool.
+https://lucid.app/lucidchart/invitations/accept/2aa23908-55a7-4a5d-97f4-959f34f0d62e
 
 <br>
 
-***
+---
 
 ## Post-MVP
 
 > Use this section to document ideas you've had that would be fun (or necessary) for your Post-MVP. This will be helpful when you return to your project after graduation!
 
-***
+---
 
 ## Code Showcase
 
