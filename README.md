@@ -58,15 +58,9 @@ An app that allows the user to search for house plants in the New York City area
 
 ![Detailed Plant Page](</assets/images/Detailed_Plant_Page(Desktop).png>)
 
-- Resource Show
+- Detailed Store Page (Desktop)
 
-![Dummy Link](url)
-
-- Tablet Resource Index
-
-![Dummy Link](url)
-
-- Mobile Resource Index
+![Detailed Store Page](</assets/images/Store_Page_(Desktop).png>)
 
 #### Component Hierarchy
 
@@ -102,13 +96,9 @@ client
 
 #### Component Tree
 
-> Use this section to include a link to your component tree.
-
-[Component tree](url)
+[Component Tree](https://whimsical.com/plantify-5G4KEwXVNYpcEmfTQPNjVY@2Ux7TurymMmgWBBzGec1)
 
 #### Time Estimates
-
-> Use this section to estimate the time necessary to build out each of the components you've described above.
 
 | Task                     | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------------ | :------: | :------------: | :-----------: | :---------: |
@@ -143,6 +133,7 @@ client
 ## Post-MVP
 
 - Care Tips section
+- Add store hours in back-end and populate i detailed store page
 
 ---
 
