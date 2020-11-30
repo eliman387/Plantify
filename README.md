@@ -124,7 +124,7 @@ client
 
 #### ERD Model
 
-![PlantifyERD](https://lucid.app/publicSegments/view/77a8c73e-0e77-4611-96f7-4385a71168fa/image.png)
+![PlantifyERD](https://lucid.app/publicSegments/view/a6dae1e1-2413-4014-830d-57df99cafbea/image.png)
 
 <br>
 
