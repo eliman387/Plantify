@@ -48,15 +48,15 @@ An app that allows the user to search for house plants in the New York City area
 
 - Browse Page (Desktop)
 
-![Browse Page](</assets/images/Browse_Page_(Desktop).png>)
+![Browse Plants Page](</assets/images/Browse_Page_(Desktop).png>)
 
-- Local Stores Page
+- Browse Store Page (Desktop)
 
-![Local Store Page](</assets/images/Local_Store_Page_(Desktop).png>)
+![Browse Store Page](</assets/images/Local_Store_Page_(Desktop).png>)
 
-- Resource Index
+- Detailed Plant Page (Desktop)
 
-![Dummy Link](url)
+![Detailed Plant Page](</assets/images/Detailed_Plant_Page(Desktop).png>)
 
 - Resource Show
 
@@ -72,15 +72,31 @@ An app that allows the user to search for house plants in the New York City area
 
 ```structure
 
-src
-|__ asset s/
-      |__ fonts
-      |__ graphics
-      |__ images
-      |__ mockups
-|__ components/
-      |__ Header.jsx
-|__ services/
+client
+|__ src/
+      |__ components /
+            |__ Header.jsx
+            |__ PlantCard.jsx
+            |__ Map.jsx
+      |__ containers /
+            |__ MainContainer.jsx
+      |__ layouts /
+            |__ Layout.jsx
+      |__ screens /
+            |__ HomePage.jsx
+            |__ BrowsePlantPage.jsx
+            |__ DetailedPlantPage.jsx
+            |__ BrowseStorePage.jsx
+            |__ DetailedStorePage.jsx
+            |__ Favorites.jsx
+            |__ AccountPage.jsx
+            |__ Login.jsx
+            |__ Register.jsx
+      |__ services /
+            |__ apiConfig.js
+            |__ auth.js
+            |__ plants.jsx
+            |__ stores.jsx
 
 ```
 
@@ -98,13 +114,14 @@ src
 | ------------------------ | :------: | :------------: | :-----------: | :---------: |
 | Add Login Page           |    H     |     3 hrs      |     1 hrs     |     TBD     |
 | Add SignUp Page          |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Add Homepage             |    H     |     3 hrs      |     2 hrs     |    3 hrs    |
+| Add Homepage             |    H     |     3 hrs      |     2 hrs     |     TBD     |
 | Add Browse Plant Pge     |    H     |     3 hrs      |     1 hrs     |     TBD     |
 | Add Detailed Plant Page  |    H     |     3 hrs      |     1 hrs     |     TBD     |
 | Add Browse Store Page    |    H     |     3 hrs      |     1 hrs     |     TBD     |
 | Add Detailed Store Page  |    H     |     3 hrs      |     1 hrs     |     TBD     |
 | Add Account Page         |    H     |     3 hrs      |     1 hrs     |     TBD     |
 | Add Favorite Page        |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| CSS Animations           |    H     |     3 hrs      |     1 hrs     |     TBD     |
 | Creating Back-end Server |    H     |     3 hrs      |     1 hrs     |     TBD     |
 | Add Conntrollers         |    H     |     4 hrs      |     1 hrs     |     TBD     |
 | Add Models               |    H     |     2 hrs      |     1 hrs     |     TBD     |
