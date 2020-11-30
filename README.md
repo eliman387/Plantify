@@ -25,8 +25,6 @@ An app that allows the user to search for house plants in the New York City area
 
 ### Libraries and Dependencies
 
-> Use this section to list all supporting libraries and dependencies, and their role in the project. Below is an example - this needs to be replaced!
-
 |     Library     | Description                                                 |
 | :-------------: | :---------------------------------------------------------- |
 |      React      | _Framework that the front-end client side is built on_      |
