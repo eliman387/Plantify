@@ -20,7 +20,6 @@ An app that allows the user to search for house plants in the New York City area
 
 - A way to find a good collection of different houseplants
 - Authentican for users
-- Care Tips section
 
 <br>
 
@@ -43,17 +42,17 @@ An app that allows the user to search for house plants in the New York City area
 
 #### Wireframes
 
-Homepage (Desktop)
+- Homepage (Desktop)
 
 ![Homepage Desktop](</assets/images/HOMEPAGE_WIREFRAME_(Desktop).png>)
 
-- Desktop Landing
+- Browse Page (Desktop)
 
-![Dummy Link](url)
+![Browse Page](</assets/images/Browse_Page_(Desktop).png>)
 
-- Desktop Hero
+- Local Stores Page
 
-![Dummy Link](url)
+![Local Store Page](</assets/images/Local_Store_Page_(Desktop).png>)
 
 - Resource Index
 
@@ -69,13 +68,7 @@ Homepage (Desktop)
 
 - Mobile Resource Index
 
-#### Component Tree
-
-> Use this section to display the structure of how your React components are being rendered. This should show the parent to child relation between you components. In other words, show which components are rendering the other components.
-
 #### Component Hierarchy
-
-> Use this section to define your React components and the data architecture of your app. This should be a reflection of how you expect your directory/file tree to look like.
 
 ```structure
 
@@ -101,13 +94,22 @@ src
 
 > Use this section to estimate the time necessary to build out each of the components you've described above.
 
-| Task                | Priority | Estimated Time | Time Invested | Actual Time |
-| ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
-
-> _Why is this necessary? Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evaluate possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe._
+| Task                     | Priority | Estimated Time | Time Invested | Actual Time |
+| ------------------------ | :------: | :------------: | :-----------: | :---------: |
+| Add Login Page           |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Add SignUp Page          |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Add Homepage             |    H     |     3 hrs      |     2 hrs     |    3 hrs    |
+| Add Browse Plant Pge     |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Add Detailed Plant Page  |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Add Browse Store Page    |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Add Detailed Store Page  |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Add Account Page         |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Add Favorite Page        |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Creating Back-end Server |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Add Conntrollers         |    H     |     4 hrs      |     1 hrs     |     TBD     |
+| Add Models               |    H     |     2 hrs      |     1 hrs     |     TBD     |
+| Add Routes               |    H     |     2 hrs      |     1 hrs     |     TBD     |
+| TOTAL                    |          |    ~38 hrs     |      TBD      |     TBD     |
 
 <br>
 
@@ -123,7 +125,7 @@ src
 
 ## Post-MVP
 
-> Use this section to document ideas you've had that would be fun (or necessary) for your Post-MVP. This will be helpful when you return to your project after graduation!
+- Care Tips section
 
 ---
 
