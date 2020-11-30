@@ -115,7 +115,7 @@ src
 
 #### ERD Model
 
-![PlantifyERD](https://lucid.app/publicSegments/view/3566ed16-b092-462f-8449-6e01e804709f/image.png)
+![PlantifyERD](https://lucid.app/publicSegments/view/a3d5e8c6-6629-4791-ae84-0e97c79b42f1/image.png)
 
 <br>
 
