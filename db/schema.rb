@@ -10,10 +10,41 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_12_01_152652) do
+ActiveRecord::Schema.define(version: 2020_12_02_163514) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "plants", force: :cascade do |t|
+    t.string "commmon_name"
+    t.string "botanical_name"
+    t.string "picture"
+    t.string "size"
+    t.string "difficulty_level"
+    t.string "light"
+    t.string "pet_friendly"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "plants_stores", id: false, force: :cascade do |t|
+    t.bigint "store_id", null: false
+    t.bigint "plant_id", null: false
+    t.index ["plant_id", "store_id"], name: "index_plants_stores_on_plant_id_and_store_id"
+    t.index ["store_id", "plant_id"], name: "index_plants_stores_on_store_id_and_plant_id"
+  end
+
+  create_table "shops", force: :cascade do |t|
+    t.string "name"
+    t.string "type"
+    t.string "address"
+    t.string "borough"
+    t.string "image"
+    t.string "phone_number"
+    t.string "website"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "username"

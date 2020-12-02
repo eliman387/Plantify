@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :shops
+  resources :plants
   post '/login', to: 'authentication#login'
   get '/verify', to: 'authentication#verify'
   resources :users, only: :create
