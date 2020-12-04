@@ -1,6 +1,4 @@
 class UsersController < ApplicationController
-  before_action :set_user, only: [:show, :update, :destroy]
-
 
   def create
     @user = User.new(user_params)
@@ -15,8 +13,6 @@ class UsersController < ApplicationController
       render json: @user.errors, status: :unprocessable_entity
     end
   end
-
-
 
   private
 

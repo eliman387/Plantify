@@ -11,7 +11,7 @@ Plant.delete_all
 ##Users
 
 @user0 = User.create(username: 'admin', email: 'eliman387@gmail.com', password: '12345678', isAdmin: true)
-
+@user1 = User.create(username: 'nonadmin', email: 'eliman387@admin.com', password: '12345678', isAdmin: false)
 ##Shops
 
 #Brooklyn
