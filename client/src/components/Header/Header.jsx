@@ -10,7 +10,7 @@ function Header() {
   return (
     <nav className="nav-container">
       
-      <Link id="nav-logo">Plantify</Link>
+      <Link id="nav-logo" to="/">Plantify</Link>
       <div className="nav-links">
       <Link className="link" to='/plants'>PLANTS</Link>
       <Link className="link" to='/shops'>SHOPS</Link>
