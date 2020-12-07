@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@font-face {
+  font-family: "raisonne-demibold";
+  src: url("../../assets/fonts/raisonne-demibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.nav-container {
+  display: flex;
+  position: fixed;
+  top: 0;
+  height: 90px;
+  width: 100%;
+  z-index: 100;
+  background-color: #fbf9f3;
+  justify-content: space-between;
+}
+
+#nav-logo {
+  font-family: "raisonne-demibold", sans-serif;
+  margin-left: 25px;
+  padding-top: 20px;
+  padding-left: 15px;
+  font-size: 36px;
+  font-weight: 700;
+  width: 25%;
+  height: 60pt;
+  text-decoration: none;
+  color: #224229;
+}
+
+.nav-links {
+  font-family: "raisonne-demibold", sans-serif;
+  font-weight: 700;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  width: 30%;
+  height: 60pt;
+  padding-top: 30px;
+  padding-right: 15px;
+}
+.nav-icons {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  width: 25%;
+  height: 60pt;
+  padding-top: 30px;
+  padding-right: 15px;
+}
+
+.link {
+  font-family: "raisonne-demibold", sans-serif;
+  text-decoration: none;
+  color: #224229;
+  font-size: 20px;
+  font-weight: 700;
+}
+#search {
+  width: auto;
+  height: 34px;
+}
+#account {
+  width: auto;
+  height: 50px;
+}
+#star {
+  width: auto;
+  height: 45px;
+}
