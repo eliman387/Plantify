@@ -1,16 +1,16 @@
-import './App.css';
 import { useState, useEffect } from 'react';
 import { Switch, Route, useHistory } from 'react-router-dom';
-import Layout from './layouts/Layout';
-import Homepage from './screens/Homepage/Homepage';
-import BrowsePlantsPage from './screens/BrowsePlantsPage/BrowsePlantsPage';
-import BrowseStorePage from './screens/BrowseStorePage/BrowseStorePage';
-import PlantDetailPage from './screens/PlantDetail/PlantDetailPage';
 
-import { getAllShops, getShopDetail, createShop, updateShop, destroyShop } from './services/shops'
-import { getAllPlants, getPlantDetail, createPlant, updatePlant, destroyPlant } from './services/plants'
+import PlantDetailPage from '../screens/PlantDetail/PlantDetailPage';
+import BrowseStorePage from '../screens/BrowseStorePage/BrowseStorePage';
+import BrowsePlantsPage from '../screens/BrowsePlantsPage/BrowsePlantsPage';
+// import FoodDetail from '../screens/FoodDetail';
+// import FoodEdit from '../screens/FoodEdit';
+// import Foods from '../screens/Foods';
+import { getAllShops, getShopDetail, createShop, updateShop, destroyShop } from '../services/shops'
+import { getAllPlants, getPlantDetail, createPlant, updatePlant, destroyPlant } from '../services/plants'
 
-function App() {
+export default function MainContainer(props) {
   const [plants, setPlants] = useState([]);
   const [shops, setShops] = useState([]);
   const history = useHistory();
@@ -47,27 +47,15 @@ function App() {
     await destroyPlant(id);
     setPlants(prevState => prevState.filter(plant => plant.id !== id))
   }
+
   return (
-    <div className="App">
-      <Layout>
-        <Switch>
-          <Route exact path="/" component={Homepage} />
-
-          <Route exact path='/plants'>
-            <BrowsePlantsPage plants={plants} />
-          </Route>
-          <Route exact path='/plants/:id'>
-            <PlantDetailPage />
-          </Route>
-        
-          <Route exact path='/shops'>
-            <BrowseStorePage shops={shops}  />
-          </Route>
-        </Switch>
-        
-      </Layout>
-    </div>
-  );
+    <Switch>
+      <Route path='/plants'>
+        <BrowsePlantsPage plants={plants} />
+      </Route>
+      <Route path='/plants/:id/edit'>
+        <BrowseStorePage shops={shops}  />
+      </Route>
+    </Switch>
+  )
 }
-
-export default App;

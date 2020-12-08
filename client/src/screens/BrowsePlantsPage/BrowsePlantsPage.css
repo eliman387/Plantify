@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "raisonne-demibold";
+  src: url("../../assets/fonts/raisonne-demibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#plant-heading {
+  font-family: "raisonne-demibold", Courier, monospace;
+  color: #224229;
+  margin-left: 5%;
+  font-size: 40px;
+}
+#all-plants-container {
+  /* display: inline-block; */
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  width: 80%;
+  height: 500px;
+  background-color: #224229;
+}

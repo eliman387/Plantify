@@ -1,0 +1,22 @@
+.image {
+  width: 300px;
+  height: auto;
+}
+
+.upcoming-events {
+  display: inline-flex;
+  margin-bottom: 80px;
+  margin-left: 89px;
+  width: 33%;
+  height: auto;
+  background-color: antiquewhite;
+}
+
+.upcoming-info {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: -15px;
+  margin-left: -100px;
+  width: 30%;
+}

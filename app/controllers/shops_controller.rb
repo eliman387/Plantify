@@ -1,6 +1,6 @@
 class ShopsController < ApplicationController
   before_action :set_shop, only: [:show, :update, :destroy]
-  before_action :authorize_request, :create
+  # before_action :authorize_request, :create
   # GET /shops
   def index
     @shops = Shop.all
@@ -16,15 +16,15 @@ class ShopsController < ApplicationController
   # POST /shops
   def create
     @shop = Shop.new(shop_params)
-    if @current_user.isAdmin? 
+    # if @current_user.isAdmin? 
       if @shop.save
         render json: @shop, status: :created, location: @shop
       else
         render json: @shop.errors, status: :unprocessable_entity
       end
-    else
-      render json: @shop.errors, status: :unauthorized
-    end
+    # else
+    #   render json: @shop.errors, status: :unauthorized
+    # end
 
   end
 
