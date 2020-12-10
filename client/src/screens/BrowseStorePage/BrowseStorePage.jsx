@@ -8,7 +8,13 @@ function BrowseStorePage(props) {
       <br />
       <br />
       <br />
-      <h1>HIIIII</h1>
+      <h1>Browse Local Stores</h1>
+
+      <button>Manhattan</button>
+      <button>Brooklyn</button>
+      <button>Queens</button>
+      <button>Bronx</button>
+      <button>Staten Island</button>
     </div>
   );
 }

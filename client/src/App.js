@@ -7,8 +7,8 @@ import BrowsePlantsPage from './screens/BrowsePlantsPage/BrowsePlantsPage';
 import BrowseStorePage from './screens/BrowseStorePage/BrowseStorePage';
 import PlantDetailPage from './screens/PlantDetail/PlantDetailPage';
 
-import { getAllShops, getShopDetail, createShop, updateShop, destroyShop } from './services/shops'
-import { getAllPlants, getPlantDetail, createPlant, updatePlant, destroyPlant } from './services/plants'
+import { getAllShops } from './services/shops'
+import { getAllPlants, createPlant, updatePlant, destroyPlant } from './services/plants'
 
 function App() {
   const [plants, setPlants] = useState([]);

@@ -5,7 +5,8 @@ function Homepage () {
   return (
       <div id="home-container">
         <img
-          className="header-image"
+        className="header-image"
+        alt="homepage cover"
         />
         <div className="image-text">
         Add a little greenery to your scenery
