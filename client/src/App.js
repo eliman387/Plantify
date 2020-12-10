@@ -56,12 +56,17 @@ function App() {
           <Route exact path='/plants'>
             <BrowsePlantsPage plants={plants} />
           </Route>
+
           <Route exact path='/plants/:id'>
             <PlantDetailPage />
           </Route>
         
           <Route exact path='/shops'>
             <BrowseStorePage shops={shops}  />
+          </Route>
+
+          <Route exact path='/shops/:id'>
+            <BrowseStorePage />
           </Route>
         </Switch>
         

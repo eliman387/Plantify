@@ -1,22 +1,52 @@
-.image {
-  width: 300px;
-  height: auto;
+@font-face {
+  font-family: "nib-semibold";
+  src: url("../../assets/fonts/NibPro-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 .upcoming-events {
   display: inline-flex;
-  margin-bottom: 80px;
-  margin-left: 89px;
-  width: 33%;
-  height: auto;
+  position: relative;
+  flex-direction: column;
+  place-items: center;
+  margin: 20px 10px;
+  width: 400px;
+  height: 400px;
   background-color: antiquewhite;
 }
 
 .upcoming-info {
-  font-family: "Montserrat", sans-serif;
+  font-family: "nib-semibold", sans-serif;
   font-size: 25px;
   font-weight: 700;
-  margin-top: -15px;
-  margin-left: -100px;
-  width: 30%;
+  width: 80%;
+  margin: 0 auto;
+  z-index: 100;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  z-index: 200;
+  margin-top: 30px;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  text-decoration: none;
+  color: black;
 }

@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@font-face {
+  font-family: "nib-semibold";
+  src: url("../../assets/fonts/NibPro-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#plant-img {
+  height: auto;
+  width: 500px;
+  border: 6px solid antiquewhite;
+  border-radius: 20px;
+  margin: 170px 40px 20px 75px;
+}
+.plant-title {
+  display: inline-block;
+  font-size: 32px;
+  font-family: "nib-semibold", serif;
+  color: #224229;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.descrip {
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Lora", serif;
+  color: #224229;
+}
+.main-container {
+  display: flex;
+}
+.title-container {
+  margin-top: 100px;
+  display: inline-block;
+  height: 300px;
+}
+.info-container {
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Lora", serif;
+  color: #224229;
+}
+hr {
+  border: none;
+  border-top: 3px double #224229;
+  height: 5px;
+  width: 90%;
+  margin-left: 0px;
+}
+.view-shop-button {
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #224229;
+  color: antiquewhite;
+  font-size: 20px;
+  font-family: "nib-semibold";
+  width: 400px;
+  border: 0px hidden;
+  border-radius: 40px;
+}
+.shop-item {
+  border: 2px solid antiquewhite;
+  border-radius: 30px;
+  list-style-type: none;
+  box-shadow: #224229;
+}
+.shop-thumbnail {
+  height: auto;
+  width: 100px;
+  margin-left: 30px;
+}
+#shop-name {
+  font-family: "nib-semibold", serif;
+  font-size: 30px;
+  color: #224229;
+  margin: 25px 0 5px 30px;
+}
+#shop-type,
+#shop-addy {
+  font-family: "nib-semibold", serif;
+  font-size: 20px;
+  color: #224229;
+  margin: 10px 0 0 30px;
+}

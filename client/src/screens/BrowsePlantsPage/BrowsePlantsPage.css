@@ -12,7 +12,7 @@
   font-size: 40px;
 }
 #all-plants-container {
-  /* display: inline-block; */
+  display: flex;
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
@@ -20,6 +20,6 @@
   flex-wrap: nowrap;
   margin: 0 auto;
   width: 80%;
-  height: 500px;
+  height: fit-content;
   background-color: #224229;
 }
