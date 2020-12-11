@@ -4,11 +4,17 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "nib-bold";
+  src: url("../../assets/fonts/NibPro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
 .store-header {
-  font-family: "nib-semibold";
+  font-family: "raisonne-demibold", serif;
   color: #224229;
   font-size: 30px;
-  margin: 40px 0 20px 40px;
+  margin: 40px 0 10px 40px;
 }
 .filtered-shop {
   display: flex;
@@ -41,6 +47,13 @@
   font-size: 20px;
   font-weight: bolder;
   color: #224229;
+}
+.button-bar-border {
+  border: none;
+  border-top: 3px double #224229;
+  height: 5px;
+  width: 100%;
+  margin-left: 0px;
 }
 .button-bar {
   display: flex;

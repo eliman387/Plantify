@@ -11,6 +11,10 @@
   margin-left: 5%;
   font-size: 40px;
 }
+.add-icon {
+  width: 30px;
+  margin-left: 10px;
+}
 #all-plants-container {
   display: flex;
   overflow-x: scroll;

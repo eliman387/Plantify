@@ -19,6 +19,7 @@ function BrowseStorePage(props) {
       <h1 className="store-header">Browse Local Stores</h1>
       <br />
       <br />
+      <hr className="button-bar-border"/> 
       <div className="button-bar">
         <button className="view-boro-button">Manhattan</button>
         <button className="view-boro-button">Brooklyn</button>
@@ -26,6 +27,7 @@ function BrowseStorePage(props) {
         <button className="view-boro-button">Bronx</button>
         <button className="view-boro-button">Staten Island</button>
       </div>
+      <hr className="button-bar-border"/>
       <br />
       <br />
       {filterManhattan.map((shop) => (

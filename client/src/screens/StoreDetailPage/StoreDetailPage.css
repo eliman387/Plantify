@@ -1,0 +1,83 @@
+.shop-info-container {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 60px 40px;
+}
+.shop-header {
+  font-family: "nib-bold", serif;
+  color: #224229;
+  width: 40%;
+  height: 200px;
+}
+.shop-info-card {
+  margin: -350px 0 0 10px;
+  background-color: #fbf9f3;
+  height: 200px;
+  min-width: 400px;
+  border: 3px solid #9b9173;
+  border-radius: 20px;
+}
+.info-line > h3 {
+  margin-left: 60px;
+  color: #224229;
+}
+.info-line > img {
+  color: #224229;
+}
+.info-line {
+  display: flex;
+  justify-content: left;
+}
+.img-container {
+  width: 60%;
+  height: 500px;
+  margin-top: 30px;
+  overflow: hidden;
+  position: sticky;
+  top: 60px;
+  right: 60px;
+}
+
+.shop-storefront {
+  width: 900px;
+  height: auto;
+  position: absolute;
+  top: -400px;
+  right: 60px;
+  /* clip: rect(30px, 0px, 40px, 0px); */
+}
+.shop-plant-container {
+  margin: 20px auto;
+  background-color: #fbf9f3;
+  height: fit-content;
+  width: 90%;
+  border: 3px solid #9b9173;
+  border-radius: 20px;
+}
+.shop-plant-container > h2 {
+  font-family: "nib-bold", serif;
+  font-size: 36px;
+  margin-left: 40px;
+  color: #224229;
+}
+.plant-grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.plant-square {
+  width: fit-content;
+  height: fit-content;
+}
+.plant-square > img {
+  margin: 15px;
+  width: 300px;
+  height: 300px;
+}
+.plant-square > p {
+  margin-top: -5px;
+  margin-left: 20px;
+  color: #224229;
+  font-family: "nib-semibold", serif;
+  font-size: 20px;
+}
