@@ -10,6 +10,8 @@ import PlantDetailPage from './screens/PlantDetail/PlantDetailPage';
 import { getAllShops } from './services/shops'
 import { getAllPlants, createPlant, updatePlant, destroyPlant } from './services/plants'
 import StoreDetailPage from './screens/StoreDetailPage/StoreDetailPage';
+import CreatePlantPage from './screens/CreatePlantPage/CreatePlantPage';
+import EditPlantPage from './screens/EditPlantPage/EditPlantPage';
 
 function App() {
   const [plants, setPlants] = useState([]);
@@ -68,6 +70,14 @@ function App() {
 
           <Route exact path='/shops/:id'>
             <StoreDetailPage />
+          </Route>
+
+          <Route>
+            <CreatePlantPage handleCreate={handleCreate}/>
+          </Route>
+
+          <Route>
+            <EditPlantPage handleUpdate={handleUpdate}/>
           </Route>
         </Switch>
         
