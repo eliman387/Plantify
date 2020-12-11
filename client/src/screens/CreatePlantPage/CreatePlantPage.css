@@ -1,0 +1,32 @@
+.create-container {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  font-family: "nib-semibold", serif;
+  color: white;
+}
+
+.create-form {
+  display: flex;
+  flex-direction: column;
+  opacity: 0.8;
+}
+.input-name {
+  margin-top: 30px;
+}
+.input-name,
+.input-position {
+  margin-bottom: 50px;
+}
+
+.screen-create-button {
+  border-radius: 15px 50px 30px;
+  height: 30px;
+  font-family: "Fredericka the Great", cursive;
+  background-color: orange;
+  margin-bottom: 500px;
+}
+
+.create-title {
+  font-size: 30px;
+}

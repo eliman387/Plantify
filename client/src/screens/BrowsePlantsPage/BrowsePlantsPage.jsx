@@ -27,7 +27,7 @@ function BrowsePlantsPage(props) {
       <br />
       
       <h2 id='plant-heading'>Browse Plants</h2>
-      <Link to='/'>
+      <Link to='/plants-new/add'>
         <img className="add-icon" src={add} alt=""/>
       </Link>
       <br />

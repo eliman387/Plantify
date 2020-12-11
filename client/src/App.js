@@ -72,12 +72,12 @@ function App() {
             <StoreDetailPage />
           </Route>
 
-          <Route>
+          <Route exact path='/plants-new/add'>
             <CreatePlantPage handleCreate={handleCreate}/>
           </Route>
 
-          <Route>
-            <EditPlantPage handleUpdate={handleUpdate}/>
+          <Route exact path='/plants/:id/edit'>
+            <EditPlantPage plants={plants} handleUpdate={handleUpdate}/>
           </Route>
         </Switch>
         

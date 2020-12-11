@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import './PlantDetailPage.css'
 import {getPlantDetail} from '../../services/plants'
-import { useParams } from 'react-router-dom';
-import './PlantDetailPage.css'
+import { Link, useParams } from 'react-router-dom';
+import './PlantDetailPage.css';
+import edit from '../../assets/svg/noun_edit.svg';
 
 function PlantDetailPage() {
   const [plant, setPlant] = useState({});
@@ -26,6 +26,7 @@ function PlantDetailPage() {
           <p className='plant-title'>{plant.common_name}</p>
           <br/>
           <p className='descrip'>{plant.botanical_name}</p> 
+          <Link to={`/plants/${plant.id}/edit`}><img src={edit} alt="edit-button" width="30px"/></Link>
           <hr />
           <div className='info-container'>
             <h4>Size: {plant.size}</h4>
