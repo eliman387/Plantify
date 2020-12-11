@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './BrowseStorePage.css'
 
 function BrowseStorePage(props) {
-  const [stores, setStores] = useState({});
-  console.log(props.shops);
+
   const filterManhattan = props.shops.filter((shop) => shop.borough === "Manhattan");
 
   // console.log(filterManhattan);

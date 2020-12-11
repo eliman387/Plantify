@@ -9,7 +9,6 @@ import web from '../../assets/svg/noun_Global.svg';
 
 function StoreDetailPage() {
   const [shop, setShop] = useState({});
-  const [showInventory, setShowInventory] = useState(false);
   const { id } = useParams();
 
   useEffect(() => {
