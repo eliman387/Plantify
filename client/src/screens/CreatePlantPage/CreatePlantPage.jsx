@@ -3,15 +3,14 @@ import './CreatePlantPage.css'
 
 function CreatePlantPage(props) {
   const [formData, setFormData] = useState({
-    plant: {
-      common_name: "",
-      botanical_name: "",
-      picture: "",
-      size: "",
-      difficulty_level: "",
-      light: "",
-      pet_friendly: ""
-    }
+      common_name: '',
+      botanical_name: '',
+      picture: '',
+      size: '',
+      difficulty_level: '',
+      light: '',
+      pet_friendly: ''      
+   
   })
 
   const handleChange = (e) => {

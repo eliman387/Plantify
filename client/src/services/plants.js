@@ -11,7 +11,7 @@ export const getPlantDetail = async (id) => {
 }
 
 export const createPlant = async (plantData) => {
-  const resp = await api.post('/plants', { plants: plantData });
+  const resp = await api.post('/plants', { plant: plantData });
   return resp.data
 }
 
