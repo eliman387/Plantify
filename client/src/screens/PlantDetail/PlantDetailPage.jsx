@@ -34,7 +34,7 @@ function PlantDetailPage() {
             <br />
             <h4>Light: {plant.light}</h4>
             <br />
-            <h4>Pet Friendly: {plant.pet_friendly === "t" ? "Yes, pet friendly" : "No, your pet will die"}</h4>
+            <h4>Pet Friendly: {plant.pet_friendly === "t" ? "Yes, pet friendly" : "No — can cause mouth irritation and digestive reaction"}</h4>
             <br />
             <br />
             <br />

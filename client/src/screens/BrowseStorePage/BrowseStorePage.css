@@ -1,0 +1,23 @@
+.filtered-shop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  margin-bottom: 80px;
+  margin-left: 89px;
+  width: 87%;
+}
+
+.shop-info {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: -15px;
+  margin-left: -100px;
+  width: 30%;
+}
+.shop-image {
+  width: 485px;
+  height: 270px;
+  margin-left: -71px;
+}

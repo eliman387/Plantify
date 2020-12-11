@@ -9,10 +9,11 @@ import PlantDetailPage from './screens/PlantDetail/PlantDetailPage';
 
 import { getAllShops } from './services/shops'
 import { getAllPlants, createPlant, updatePlant, destroyPlant } from './services/plants'
+import StoreDetailPage from './screens/StoreDetailPage/StoreDetailPage';
 
 function App() {
   const [plants, setPlants] = useState([]);
-  const [shops, setShops] = useState([]);
+  const [shops, setShops] = useState({});
   const history = useHistory();
 
   useEffect(() => {
@@ -66,7 +67,7 @@ function App() {
           </Route>
 
           <Route exact path='/shops/:id'>
-            <BrowseStorePage />
+            <StoreDetailPage />
           </Route>
         </Switch>
         
