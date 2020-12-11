@@ -30,7 +30,7 @@ function BrowseStorePage(props) {
       <br />
       <br />
       {filterManhattan.map((shop) => (
-        <div className="filtered-shop">
+        <div key={shop.id}className="filtered-shop">
           <Link to={`/shops/${shop.id}`}>
             <img className="shop-image" src={shop.image} alt="shop" />
           </Link>

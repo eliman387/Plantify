@@ -13,6 +13,7 @@
 }
 .add-icon {
   width: 30px;
+  margin-top: 45px;
   margin-left: 10px;
 }
 #all-plants-container {
@@ -26,4 +27,7 @@
   width: 80%;
   height: fit-content;
   background-color: #224229;
+}
+.plant-heading-contain {
+  display: flex;
 }

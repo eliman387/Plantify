@@ -25,11 +25,12 @@ function BrowsePlantsPage(props) {
       <br />
       <br />
       <br />
-      
+      <div className='plant-heading-contain'>
       <h2 id='plant-heading'>Browse Plants</h2>
       <Link to='/plants-new/add'>
         <img className="add-icon" src={add} alt=""/>
       </Link>
+      </div>
       <br />
       <br />
       <div id='all-plants-container'>
