@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "nib-semibold";
+  src: url("../../assets/fonts/NibPro-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.store-header {
+  font-family: "nib-semibold";
+  color: #224229;
+  font-size: 30px;
+  margin: 40px 0 20px 40px;
+}
 .filtered-shop {
   display: flex;
   flex-direction: row;
@@ -6,18 +18,42 @@
   margin-bottom: 80px;
   margin-left: 89px;
   width: 87%;
+  border: 3px solid #224229;
 }
 
 .shop-info {
-  font-family: "Montserrat", sans-serif;
+  font-family: "nib-semibold", sans-serif;
   font-size: 36px;
   font-weight: 700;
   margin-top: -15px;
   margin-left: -100px;
-  width: 30%;
+  width: 40%;
 }
 .shop-image {
   width: 485px;
   height: 270px;
   margin-left: -71px;
+}
+.store-addy {
+  font-size: 20px;
+}
+.shop-subtype {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #224229;
+}
+.button-bar {
+  display: flex;
+  justify-content: space-between;
+}
+.view-boro-button {
+  margin: 40px auto;
+  padding: 10px;
+  background-color: #224229;
+  color: antiquewhite;
+  font-size: 20px;
+  font-family: "nib-semibold";
+  width: 15%;
+  border: 0px hidden;
+  border-radius: 40px;
 }

@@ -16,7 +16,16 @@ function BrowseStorePage(props) {
       <br />
       <br />
       <br />
-      <h1>Browse Local Stores</h1>
+      <h1 className="store-header">Browse Local Stores</h1>
+      <br />
+      <br />
+      <div className="button-bar">
+        <button className="view-boro-button">Manhattan</button>
+        <button className="view-boro-button">Brooklyn</button>
+        <button className="view-boro-button">Queens</button>
+        <button className="view-boro-button">Bronx</button>
+        <button className="view-boro-button">Staten Island</button>
+      </div>
       <br />
       <br />
       {filterManhattan.map((shop) => (
@@ -35,11 +44,6 @@ function BrowseStorePage(props) {
         </div>
       ))}
 
-      <button>Manhattan</button>
-      <button>Brooklyn</button>
-      <button>Queens</button>
-      <button>Bronx</button>
-      <button>Staten Island</button>
     </div>
   );
 }

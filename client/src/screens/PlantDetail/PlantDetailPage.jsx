@@ -43,6 +43,9 @@ function PlantDetailPage() {
             onClick={() => setShowAvailable(!showAvailable)}
             className='view-shop-button'>Find local shop availabilty
           </button>
+          <br />
+          <br />
+          <br />
           {showAvailable ? <ul>
             {plant.shops?.map((shop) => (
               <li key={shop.id} className='shop-item'>
@@ -52,6 +55,9 @@ function PlantDetailPage() {
                 <br />
                 <span id="shop-type" >{shop.sub_type}</span>
                 <p id="shop-addy">{shop.address}</p>
+                <br />
+                <br />
+                <br/>
                 <img src={shop.image} alt="shop" className="shop-thumbnail" />
               </li>
             ))}

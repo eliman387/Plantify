@@ -23,7 +23,7 @@ function StoreDetailPage() {
       <br />
       <br />
       <br />
-      <h1>Hello World</h1>
+      <h1>{shop.name}</h1>
     </div>
   );
 }
