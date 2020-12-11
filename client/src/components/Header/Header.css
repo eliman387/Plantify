@@ -69,3 +69,19 @@
   width: auto;
   height: 45px;
 }
+@media screen and (max-width: 768px) {
+  #nav-logo {
+    color: #fbf9f3;
+  }
+  .nav-container {
+    background-color: #224229;
+  }
+}
+@media screen and (max-width: 400px) {
+  #nav-logo {
+    color: #224229;
+  }
+  .nav-container {
+    background-color: #fbf9f3;
+  }
+}

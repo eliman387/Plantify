@@ -3,8 +3,9 @@ import {getPlantDetail} from '../../services/plants'
 import { Link, useParams } from 'react-router-dom';
 import './PlantDetailPage.css';
 import edit from '../../assets/svg/noun_edit.svg';
+import destroy from '../../assets/svg/noun_delete.svg';
 
-function PlantDetailPage() {
+function PlantDetailPage(props) {
   const [plant, setPlant] = useState({});
   const [showAvailable, setShowAvailable] = useState(false);
   const { id } = useParams();
@@ -26,7 +27,13 @@ function PlantDetailPage() {
           <p className='plant-title'>{plant.common_name}</p>
           <br/>
           <p className='descrip'>{plant.botanical_name}</p> 
-          <Link to={`/plants/${plant.id}/edit`}><img src={edit} alt="edit-button" width="30px"/></Link>
+          <Link to={`/plants/${plant.id}/edit`}><img src={edit} alt="edit-button" width="30px" /></Link>
+          <img
+            src={destroy}
+            alt="trash item"
+            width="27px"
+            onClick={() => props.handleDelete(plant.id)}
+          />
           <hr />
           <div className='info-container'>
             <h4>Size: {plant.size}</h4>

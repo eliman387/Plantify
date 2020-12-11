@@ -61,7 +61,7 @@ function App() {
           </Route>
 
           <Route exact path='/plants/:id'>
-            <PlantDetailPage />
+            <PlantDetailPage handleDelete={handleDelete} />
           </Route>
         
           <Route exact path='/shops'>
